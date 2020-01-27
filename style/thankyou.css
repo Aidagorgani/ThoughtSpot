@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: "Roboto";
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 28px;
+  letter-spacing: -0.004em;
+  color: #000000;
+  margin-top: 2.4rem;
+  margin-left: 2.4rem;
+  margin-bottom: 0.6rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 20px;
+  color: #777E8B;
+  margin-left: 2.4rem;
+  margin-bottom: 2.6rem;
+}
+
+.thankyou-text {
+  border-bottom: 1px solid #DBDFE7;
+}

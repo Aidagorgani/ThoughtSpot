@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: "Roboto";
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 28px;
+  font-weight: bold;
+  letter-spacing: -0.004em;
+  color: #000000;
+  margin-left:2.4rem;
+  margin-top: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  line-height: 24px;
+  letter-spacing: -0.004em;
+  margin-left: 2.3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 20px;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.expert-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3.4rem;
+}
+
+.Portrait {
+  margin-left: 2.6rem;
+  margin-right: 2.2rem;
+}
+
+.search-section {
+  display: flex;
+  border: 1px solid rgb(165, 172, 185, 0.4);
+  border-radius: 2px 0px 0px 2px;
+  margin-left: 2.3rem;
+  width: 60rem;
+  margin-bottom: 2.4rem;
+  mix-blend-mode: normal;
+}
+
+.searchIcon {
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-p {
+  margin-top: 1.2rem;
+  margin-left: 0.7rem;
+  margin-bottom: 0.8rem;
+  color: #000000;
+}
+
+.detail {
+  margin-left: 2.3rem;
+  margin-bottom: 0.8rem;
+}
+
+.message-box {
+  border: 1px solid #E6E6E6;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3);
+  margin-left: 2.3rem;
+  width: 60rem;
+  margin-bottom:3.1rem;
+}
+
+.message-box-p {
+  color: #777E8B;
+  margin-left: 1.2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 4.8rem;
+}
+
+.buttons {
+  display: flex;
+}
+
+.cancel-button {
+  color: #1C2330;
+  border-radius: 1.6rem;
+  padding: 0.8rem 2.5rem;
+  background: #EAEDF2;
+  font-size: 1.2rem;
+  line-height: 16px;
+  margin-left: 2.3rem;
+  margin-right: 1.6rem;
+}
+
+.send-button {
+  color: #FFFFFF;
+  border-radius: 1.6rem;
+  padding: 0.8rem 2.5rem;
+  background: #2E75F0;
+  font-size: 1.2rem;
+  line-height: 16px;
+}
