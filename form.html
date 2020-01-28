@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/form.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet"/>
   </head>
   <body>
     <h1>Ask an expert</h1>
@@ -15,21 +16,27 @@
       <p>Lena Smith, Roy Johnson or Elijah Taylor will get right back to you.</p>
     </div>
     <h2>What you search for</h2>
-    <div class="search-section">
-      <img class="searchIcon" src="image\searchIcon.svg" alt="searchIcon">
-      <p class="search-p">top account regions ranked by total amount booked</p>
-    </div>
+    <select id="search-section" name="search">
+      <option>&#xf002; top account regions ranked by total amount booked</option>
+      <option>Unknown</option>
+      <option>Unknown</option>
+    </select>
     <p class="detail">Can you explain in a little more detail?</p>
     <div class="message-box">
-      <p class="message-box-p">Message for expert</p>
+      <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
     </div>
     <section class="buttons">
       <div class="button-1">
         <a class="cancel-button" href="./index.html">Cancel</a>
       </div>
       <div class="button-2">
-        <a class="send-button" href="./thankyou.html">Send</a>
+        <a class="send-button" href="./thankyou.html" onclick="myFunction()">Send</a>
       </div>
     </section>
   </body>
+  <script>
+  function myFunction() {
+    confirm("Your inquiry has been recorded!:-)");
+  }
+  </script>
 </html>
